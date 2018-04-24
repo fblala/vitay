@@ -1,0 +1,70 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url(https://c.pxhere.com/photos/97/4c/pencils_clips_colour_pencils_foam_rubber_office_clips_pens_shabby_shabby_background-812199.jpg!d);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    text-align: center;
+    font-size: 25vh;
+    font-family: Lato-Black;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    color: #FFF0Fc;
+}
+
+.text {
+  position: absolute;
+  text-align: center;
+  font-size: 7vw;
+  font-family: Lato-Black;
+  transform: translate(-50%, -50%);
+  top: 60%;
+  left: 50%;
+  color: #FFF0Fc;
+
+}
+
+
+/* Scroll Button */
+.buton {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  background: #000;
+  color: #444;
+  font-family: Lato-Black;
+  text-align: center;
+  text-decoration: none;
+  transform: translate(-50%, -50%);
+	-moz-border-radius:29px;
+	-webkit-border-radius:29px;
+	border-radius:29px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:14px 18px;
+	text-decoration:none;
+}
+.buton:hover {
+	background-color:#dc93fa;
+}
+
+
+
+
+}
