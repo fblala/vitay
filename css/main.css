@@ -68,7 +68,7 @@ body, html {
 
 
 /* One */
-one { 
+.one { 
 	margin: 50px
 	background colour: #9FC0B7;
 	colour: #FFFFFF;
@@ -78,11 +78,19 @@ one {
 	
 /* Footer */
 
-Footer {
+.Footer li {
+	color: white;
+	
+}
+	
+	
+.footer { 
+	
 	background-color: #000000;
 	margin: 50px;
 	text-align: center;
 	text-decoration: none;
+	
 
 }
 	
