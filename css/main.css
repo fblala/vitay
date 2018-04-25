@@ -17,8 +17,8 @@ body, html {
 .centered {
     position: absolute;
     text-align: center;
-    font-size: 20vh;
-    font-family: Lato-Black;
+    font-size: 30vh;
+    font-family: 'Anton', sans-serif;
     transform: translate(-50%, -50%);
     top: 40%;
     left: 50%;
@@ -28,12 +28,12 @@ body, html {
 .text {
   position: absolute;
   text-align: center;
-  font-size: 5vw;
-  font-family: Lato-Black;
+  font-size: 3vw;
+  font-family: 'Anton', sans-serif;
   transform: translate(-50%, -50%);
   top: 60%;
   left: 50%;
-  color: #000000;
+  color: #9FDDCD;
 
 }
 
