@@ -44,7 +44,7 @@ body, html {
   top: 75%;
   left: 50%;
   background: hsla(9, 100%, 64%, 0);
-  color: #000000;
+  color: #hsla(9, 100%, 64%, 0);
   font-family: Lato-Black;
   text-align: center;
   text-decoration: none;
@@ -55,7 +55,7 @@ body, html {
 	border:2px solid #000000;
 	display:inline-block;
 	cursor:pointer;
-	color:hsla(9, 100%, 64%, 0);
+	color:#000000;
 	font-size:20px;
 	padding:14px 18px;
 	text-decoration:none;
