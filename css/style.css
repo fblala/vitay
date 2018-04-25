@@ -1,4 +1,6 @@
 darkgrey
+
+
 html {
       font-family: "Lato-Black";
 }
@@ -66,9 +68,15 @@ nav div {
       display: none;
 }
 
+nav ul li {
+float: center;
+}
+
 @media(max-width: 768px) {
       nav div {
             display: block;
+            color: white;
+            text-align: right;
       }
 
       ul {
@@ -84,7 +92,18 @@ nav div {
       ul ul {
             position: static;
             background: #e3e3e3;
+      
 
       }
+
+}
+#logo {
+  height: 50px;
+  width: auto;
+  vertical-align: middle;
+  float: left;
+  padding: 5px;
+
+}
 
 }
