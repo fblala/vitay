@@ -68,32 +68,35 @@ body, html {
 
 
 /* One */
-.one { 
-	margin: 50px
-	background colour: #9FC0B7;
-	colour: #FFFFFF;
+.one {
+	margin: 50px;
+	background-color: #9FC0B7;
+	color: #FFFFFF;
 	text-align: center
 
 }
-	
+
 /* Footer */
 
 .Footer li {
 	color: white;
-	
-}
-	
-	
-.footer { 
-	
-	background-color: #000000;
-	margin-bottom: 50px;
-	text-align: center;
-	text-decoration: none;
-	
 
 }
-	
+
+
+.footer {
+
+	background-color: #000000;
+	margin-bottom: 50px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+	text-align: center;
+	text-decoration: none;
+
+
+}
+
 
 
 }
