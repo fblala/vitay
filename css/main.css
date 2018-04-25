@@ -44,7 +44,7 @@ body, html {
   top: 75%;
   left: 50%;
   background: hsla(9, 100%, 64%, 0);
-  color: hsla(9, 100%, 64%, 0);
+  color: #000000;
   font-family: Lato-Black;
   text-align: center;
   text-decoration: none;
@@ -61,7 +61,7 @@ body, html {
 	text-decoration:none;
 }
 .buton:hover {
-	background-color:#000000;
+	background-color:hsla(9, 100%, 64%, 0);
   border:3px solid #ffffff;
 
 }
