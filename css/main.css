@@ -28,7 +28,7 @@ body, html {
 .text {
   position: absolute;
   text-align: center;
-  font-size: 7vw;
+  font-size: 4vw;
   font-family: Lato-Black;
   transform: translate(-50%, -50%);
   top: 60%;
