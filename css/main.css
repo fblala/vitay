@@ -17,23 +17,23 @@ body, html {
 .centered {
     position: absolute;
     text-align: center;
-    font-size: 25vh;
+    font-size: 20vh;
     font-family: Lato-Black;
     transform: translate(-50%, -50%);
     top: 40%;
     left: 50%;
-    color: #FFF0Fc;
+    color: #000000;
 }
 
 .text {
   position: absolute;
   text-align: center;
-  font-size: 4vw;
+  font-size: 5vw;
   font-family: Lato-Black;
   transform: translate(-50%, -50%);
   top: 60%;
   left: 50%;
-  color: #FFF0Fc;
+  color: #000000;
 
 }
 
