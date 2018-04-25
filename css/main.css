@@ -68,14 +68,20 @@ body, html {
 
 
 /* One */
-.one { 
+one { 
+	background colour: #9FC0B7;
+	colour: #FFFFFF;
+	text-align: center
+
+}
 	
 /* Footer */
 
 Footer {
 	background-color: #000000;
 	colour:#FFFFFF;
-	text-align: center;
+	text-align: right;
+	text-decoration: none;
 
 }
 	
