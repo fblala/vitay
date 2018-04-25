@@ -20,8 +20,8 @@ body, html {
     font-size: 20vh;
     font-family: Lato-Black;
     transform: translate(-50%, -50%);
-    top: 20%;
-    left: 20%;
+    top: 40%;
+    left: 50%;
     color: #000000;
 }
 
@@ -31,7 +31,7 @@ body, html {
   font-size: 5vw;
   font-family: Lato-Black;
   transform: translate(-50%, -50%);
-  top: 20%;
+  top: 60%;
   left: 50%;
   color: #000000;
 
