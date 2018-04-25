@@ -69,6 +69,7 @@ body, html {
 
 /* One */
 one { 
+	margin: 50px
 	background colour: #9FC0B7;
 	colour: #FFFFFF;
 	text-align: center
@@ -78,6 +79,7 @@ one {
 /* Footer */
 
 Footer {
+	margin: 50px;
 	background-color: #000000;
 	text-align: left;
 	text-decoration: none;
