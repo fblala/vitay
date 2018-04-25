@@ -1,16 +1,25 @@
-$("nav div").click(function() {
-      $("ul").slideToggle();
-      $("ul ul").css("display", "none");
+$("#nav .main-nav a[href^='#']").on('click', function(e) {
+  e.preventDefault();
+  var hash = this.hash;
+  $('html, body').animate({
+    scrollTop: $(this.hash).offset().top
+  }, 600);
 });
 
-$("ul li").click(function() {
-      $("ul ul").slideUp();
-      $(this).find('ul').stop().slideToggle();
-
+$('#back-to-top').on('click', function(){
+  $('body,html').animate({
+    scrollTop: 0
+  }, 600);
 });
 
-$(window).resize(function() {
-      if($(window).width() > 768) {
-            $("ul").removeAttr('style');
-      }
+///////////////////////////
+// Btn nav collapse
+$('#nav .nav-collapse').on('click', function() {
+  $('#nav').toggleClass('open');
+});
+
+///////////////////////////
+// Mobile dropdown
+$('.has-dropdown a').on('click', function() {
+  $(this).parent().toggleClass('open-drop');
 });
