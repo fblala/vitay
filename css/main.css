@@ -52,10 +52,10 @@ body, html {
 	-moz-border-radius:29px;
 	-webkit-border-radius:29px;
 	border-radius:29px;
-	border:3px solid #000000;
+	border:2px solid #000000;
 	display:inline-block;
 	cursor:pointer;
-	color:#000000;
+	color:hsla(9, 100%, 64%, 0);
 	font-size:20px;
 	padding:14px 18px;
 	text-decoration:none;
