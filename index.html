@@ -88,15 +88,23 @@
             }
       });
 </script>
-<div class="first"><button type="button">Learn More</button></div>
-<script src="js/scroll.js"></script>
+<a href="#bottom" id="top" class="buton">Learn More</a>
+      <script> $('a[href^="#"]').on('click', function(event) {
 
+          var target = $(this.getAttribute('href'));
 
+          if( target.length ) {
+              event.preventDefault();
+              $('html, body').stop().animate({
+                  scrollTop: target.offset().top
+              }, 1000);
+          }
 
+      });</script>
 
 
 <!-- One -->
-<section class= "second">
+<section class= "one" id="bottom">
   <h2>What is Vitay</h2>
 </section>
 

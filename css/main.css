@@ -40,38 +40,32 @@ body, html {
 
 
 /* Scroll Button */
-.first {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  background: hsla(9, 100%, 64%, 0);
-  color: #000000;
-  font-family: Lato-Black;
-  text-align: center;
-  text-decoration: none;
-  transform: translate(-50%, -50%);
-	-moz-border-radius:29px;
-	-webkit-border-radius:29px;
-	border-radius:29px;
+.buton {
+	background-color:#ffffff;
+	-moz-border-radius:27px;
+	-webkit-border-radius:27px;
+	border-radius:27px;
 	border:2px solid #000000;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-size:20px;
-	padding:14px 18px;
+	font-family:Lato-Black,sans-serif;
+	font-size:18px;
+	padding:10px 16px;
 	text-decoration:none;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
-.first:hover {
-	background-color: hsla(9, 100%, 64%, 0);
+.buton:hover {
+	background-color:#9FDDCD;
   border:3px solid #000000;
+
 }
 
-div button {
-  font-family: Lato-Black;
-  text-decoration: none;
-  outline: none;
-}
+
 
 
 /* One */
