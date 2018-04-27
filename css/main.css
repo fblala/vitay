@@ -40,7 +40,7 @@ body, html {
 
 
 /* Scroll Button */
-.buton {
+.first {
   position: absolute;
   top: 75%;
   left: 50%;
@@ -60,11 +60,17 @@ body, html {
 	font-size:20px;
 	padding:14px 18px;
 	text-decoration:none;
+
 }
-.buton:hover {
+.first:hover {
 	background-color: hsla(9, 100%, 64%, 0);
   border:3px solid #000000;
+}
 
+div button {
+  font-family: Lato-Black;
+  text-decoration: none;
+  outline: none;
 }
 
 
