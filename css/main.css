@@ -75,18 +75,18 @@ body, html {
 	color: #FFFFFF;
 	text-align: center
 }
+.one img {
+  float: right;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+}
 
-.one h2, p {
+
+.one p, h2 {
   margin-left: 50px;
   margin-right: 50px;
   text-align: left;
-}
-
-.one img {
-  float: right;
-  width: 60%;
-  height: 60%;
-  margin: 0px, 0px, 15px, 20px;
 }
 
 /* Footer */
