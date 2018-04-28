@@ -70,12 +70,23 @@ body, html {
 
 /* One */
 .one {
-	margin-top: 50px;
-  margin-bottom: 50px;
+  margin: auto;
 	background-color: #9CD8C8;
 	color: #FFFFFF;
 	text-align: center
+}
 
+.one h2, p {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.one img {
+  float: right;
+  width: 60%;
+  height: 60%;
+  margin: 0px, 0px, 15px, 20px;
 }
 
 /* Footer */
@@ -94,10 +105,6 @@ body, html {
   margin-top: 50px;
 	text-align: center;
 	text-decoration: none;
-
-
-}
-
 
 
 }
