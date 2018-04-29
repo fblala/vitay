@@ -39,7 +39,7 @@ ul li {
 }
 
 ul li a {
-      color: white;
+      color: black;
       text-decoration: none;
       padding: 15px;
       display: block;
@@ -92,9 +92,11 @@ nav div {
 nav ul li {
 float: center;
 }
+
 /* Making things responsive to be able to be viewed on phones */
 @media(max-width: 768px) {
-/* Nav bar responsive */
+
+      /* Nav bar responsive */
       nav div {
             display: block;
             color: #9FDDCD;
