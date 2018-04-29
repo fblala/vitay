@@ -99,7 +99,7 @@ float: center;
       /* Nav bar responsive */
       nav div {
             display: block;
-            color: #9FDDCD;
+            color: #FFFFFF;
             text-align: right;
       }
 
@@ -107,10 +107,10 @@ float: center;
             z-index: 2;
             display: none;
             position: static;
-            background: #9FDDCD;
+            background: #FFFFFF;
 
       }
-      ul li:hover { background: #53A2E2;}
+      ul li:hover { background: #9FDDCD;}
 
       ul li {
             display: block;
@@ -118,7 +118,7 @@ float: center;
 
       ul ul {
             position: static;
-            background: #e3e3e3;
+            background: #FFFFFF;
       }
 /* Picture Responsive */
       .pic{
