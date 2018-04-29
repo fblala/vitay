@@ -13,11 +13,13 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
       <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 <body>
 
 
-<!-- header -->
+<!-- nav bar -->
       <nav>
         <a href="index.html"><img class="logo"src="images/vitaylogogo.png" alt="logo"></a>
 
@@ -26,14 +28,14 @@
             </div>
 
             <ul>
-                  <li><a href="#">Applying</i></a>
+                  <li><a href="#">APPLYING</i></a>
                         <ul>
                               <li><a href="#">Job Openings</a></li>
                               <li><a href="#">Application Forms</a></li>
                               <li><a href="#">Application Process</a></li>
                         </ul>
                   </li>
-                  <li><a href="#">Interview</i></a>
+                  <li><a href="#">INTERVIEW</i></a>
                         <ul>
                               <li><a href="#">Before an Interview</a></li>
                               <li><a href="#">During the Interview</a></li>
@@ -41,7 +43,7 @@
                               <li><a href="#">Sample Interview Questions</a></li>
                         </ul>
                   </li>
-                  <li><a href="#">Resume</i></a>
+                  <li><a href="#">RESUME</i></a>
                         <ul>
                               <li><a href="#"> Writing a Resume</a></li>
                               <li><a href="#">Resume Templates</a></li>
@@ -56,45 +58,38 @@
                   </li>
             </ul>
       </nav>
-      <div class="bg"></div>
-
-<!-- intro -->
-      <div class="centered">VITAY</div>
-      <div class="text">Make Money</div>
-<script>
+<!-- Javascript for the responsive menu-->
+    <script>
 
       $("nav div").click(function() {
-            $("ul").slideToggle();
-            $("ul ul").css("display", "none");
-      });
+                  $("ul").slideToggle();
+                  $("ul ul").css("display", "none");
+            });
 
-      $("ul li").click(function() {
-            $("ul ul").slideUp();
-            $(this).find('ul').stop().slideToggle();
-      });
+            $("ul li").click(function() {
+                  $("ul ul").slideUp();
+                  $(this).find('ul').stop().slideToggle();
+            });
 
-      $(window).resize(function() {
-            if($(window).width() > 768) {
-                  $("ul").removeAttr('style');
-            }
-      });
-</script>
-<a href="#bottom" id="top" class="buton">Learn More</a>
-      <script> $('a[href^="#"]').on('click', function(event) {
+            $(window).resize(function() {
+                  if($(window).width() > 768) {
+                        $("ul").removeAttr('style');
+                  }
+            });
+      </script>
 
-          var target = $(this.getAttribute('href'));
+<!-- Background with text - home page -->
+  <div style="position: relative;" class="bg">
+        <h1 class="vitay"> Vitay </h1>
+          <h2 class="tu"> Temporary Unemployment </h2>
+<!-- Learn More Button-->
+            <a href="#bottom" id="top" class="buton">Learn More</a>
+      <!-- Javascript linked to learn more button-->
+            <script src="js/scroll.js"></script>
 
-          if( target.length ) {
-              event.preventDefault();
-              $('html, body').stop().animate({
-                  scrollTop: target.offset().top
-              }, 1000);
-          }
+  </div>
 
-      });</script>
-
-
-<!-- One -->
+<!-- Section One -->
 <div class= "one" id="bottom">
   <h2>What is Vitay <img class="pic"src="images/work.jpg"></h2>
   <p> We are here to help you through the process of getting a job. <br>We've all been there when applying to a job that we really want, <br>
