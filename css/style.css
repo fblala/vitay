@@ -64,9 +64,9 @@ ul ul {
 }
 
 ul ul li {
-  color: white;
+  color: black;
       display: block;
-      background: #96C4EA;
+      background: #FFFFFF;
 }
 
 ul li:hover ul {
