@@ -1,3 +1,5 @@
+/* JQUERY COPIED AND PASTED BECAUSE THE LINK DOESN'T WORK ON SAFARI. NOT OUT HAND WRITTEN CODE */
+
 /*!
  * jQuery JavaScript Library v3.3.1
  * https://jquery.com/
