@@ -39,15 +39,15 @@ body, html {
 
 /* Learn More Scroll Button */
 .buton {
-	background-color:#ffffff;
-	-moz-border-radius:27px;
-	-webkit-border-radius:27px;
-	border-radius:27px;
-	border:2px solid #000000;
+	background-color:#9FDDCD;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	border:6px solid #9FDDCD;
 	display:inline-block;
 	cursor:pointer;
 	color:#000000;
-	font-family:Lato-Black,sans-serif;
+	font-family:'Open Sans Condensed', sans-serif;
 	font-size:18px;
 	padding:10px 16px;
 	text-decoration:none;
@@ -58,8 +58,8 @@ body, html {
 
 }
 .buton:hover {
-	background-color:#9FDDCD;
-  border:3px solid #000000;
+	background-color:#98D3C3;
+  border:8px solid #98D3C3;
 
 }
 
