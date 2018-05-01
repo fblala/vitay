@@ -57,16 +57,16 @@ ul li:hover {
 ul ul {
       position: absolute;
       min-width: 200px;
-      background: darkgrey;
+      background: #292929;
       display: none;
     ;
 
 }
 
 ul ul li {
-  color: black;
+     color: black;
       display: block;
-      background: #FFFFFF;
+      background: #292929;
 }
 
 ul li:hover ul {
@@ -74,7 +74,7 @@ ul li:hover ul {
 }
 
 ul li i {
-      color: #292929;
+      color:black;
       float: right;
       padding-left: 20px;
 
@@ -105,7 +105,7 @@ float: center;
             z-index: 2;
             display: none;
             position: static;
-            background: #e9e9e9;
+            background: #000;
 
       }
       ul li:hover { background: #9FDDCD;}
