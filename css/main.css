@@ -15,7 +15,7 @@ body, html {
 }
 /* Homepage Text*/
 .vitay {
-  position: absolute;
+  position: relative;
   font-size: 3vh;
   font-family: 'Anton', sans-serif;
     transform: translate(-50%, -50%);
@@ -164,7 +164,7 @@ body::-webkit-scrollbar { display: none; }
 
 .nav
   {
-  position:fixed;
+  position:absolute;
   z-index:9;
   top:50%;
   cursor:pointer;
