@@ -8,6 +8,7 @@ body, html {
 }    body::-webkit-scrollbar { display: none; }
 
 
+}
 
 /* Slideshow text */
 
@@ -21,14 +22,14 @@ body, html {
 }
 
 /*Button */
-.buton {
+#top {
 	background-color:#9FDDCD;
   position: relative;
+  top: -50vh;
 	-moz-border-radius:30px;
 	-webkit-border-radius:30px;
 	border-radius:30px;
 	border:6px solid #9FDDCD;
-	display:inline-block;
 	cursor:pointer;
 	color:#000000;
 	font-family:'Open Sans Condensed', sans-serif;
@@ -38,7 +39,7 @@ body, html {
   z-index: 999;
 
 }
-.buton:hover {
+#top:hover {
 	background-color:#98D3C3;
   border:8px solid #98D3C3;
 
@@ -95,7 +96,7 @@ body, html {
   position:relative;
   width: 100%;
   height:100%;
-  top:-5%;
+  top:0;
   left:0px;
   overflow: hidden;
   }
