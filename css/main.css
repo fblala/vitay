@@ -40,6 +40,17 @@ body, html {
 
 }
 
+/* Slideshow text */
+
+}
+
+.slidetext{
+    text-align: left;
+    font-size:30px;
+    color: black;
+
+}
+
 /*Button */
 .buton {
 	background-color:#9FDDCD;
@@ -72,7 +83,7 @@ body, html {
 
 /* Section One */
 .one {
-  margin: auto;
+  margin: 100px;
 	background-color: #9CD8C8;
 	color: #FFFFFF;
 	text-align: center
@@ -86,8 +97,8 @@ body, html {
 
 
 .one p, h2 {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 500px;
+  margin-right: 500px;
   text-align: left;
 }
 
