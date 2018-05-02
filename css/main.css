@@ -160,6 +160,7 @@ body, html {
   font-family: Anton, sans-serif;
   position: relative;
   top: -10%;
+  word-wrap: break-word;
 }
 /* Slide 2*/
 .slidetext2 {
