@@ -151,13 +151,52 @@ body, html {
   }
 
 .nav:hover { opacity:1.0; }
-#left { left:3%; }
-#right { right:3%; }
+#left { left:3%; color: black;}
+#right { right:3%; color: black}
 /* Text on slide show */
-
+/* Slide 1*/
 .slidetext1 {
   font-size: 15vh;
   font-family: Anton, sans-serif;
   position: relative;
   top: -10%;
 }
+/* Slide 2*/
+.slidetext2 {
+  font-size: 20vh;
+  font-family: Anton, sans-serif;
+  position: relative;
+  top: -10%;
+  text-align: left;
+  color: black;
+  margin-left: 5%;
+}
+.image1 {
+  position: absolute;
+  top: 25%;
+  right:8%;
+  width: 35%;
+  height: 45%;
+  float: right;
+}
+#buton2 {
+	background-color:#9FDDCD;
+  position: relative;
+  top: -66vh;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	border:6px solid #9FDDCD;
+	cursor:pointer;
+	color:#000000;
+	font-family:'Open Sans Condensed', sans-serif;
+	font-size:18px;
+	padding:10px 16px;
+	text-decoration:none;
+  z-index: 999;
+  left: -25%;
+
+}
+#buton2:hover {
+	background-color:#98D3C3;
+  border:8px solid #98D3C3;
