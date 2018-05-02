@@ -149,6 +149,7 @@ float: center;
          font-family: Anton, sans-serif;
          position: relative;
          top: -10%;
+         word-wrap: break-word;
          text-align: center;
          color: black;
          margin-left: 5%;
