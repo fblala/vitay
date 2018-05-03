@@ -5,69 +5,41 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
-}    body::-webkit-scrollbar { display: none; }
-
-
 }
+body::-webkit-scrollbar { display: none; }
 
-/* Slideshow text */
 
-}
 
-.slidetext{
-    text-align: left;
-    font-size:30px;
-    color: black;
 
-}
+
 
 /*Button */
 #top {
-	background-color:#9FDDCD;
+  background-color:#9FDDCD;
   position: relative;
-  top: -50vh;
-	-moz-border-radius:30px;
-	-webkit-border-radius:30px;
-	border-radius:30px;
-	border:6px solid #9FDDCD;
+  top: -26vh;
+	-moz-border-radius:5vh;
+	-webkit-border-radius:5vh;
+	border-radius:5vh;
+	border:1vh solid #9FDDCD;
 	cursor:pointer;
 	color:#000000;
 	font-family:'Open Sans Condensed', sans-serif;
-	font-size:18px;
-	padding:10px 16px;
+	font-size:3vh;
+	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-
 }
 #top:hover {
 	background-color:#98D3C3;
-  border:8px solid #98D3C3;
+  border:1vh solid #98D3C3;
 
 }
 
 
 
 
-/* Section One */
-.one {
-  margin: 100px;
-	background-color: #9CD8C8;
-	color: #FFFFFF;
-	text-align: center
-}
-.one img {
-  float: right;
-  width: 50%;
-  height: 50%;
-  top: 50%;
-}
 
-
-.one p, h2 {
-  margin-left: 500px;
-  margin-right: 500px;
-  text-align: left;
-}
 
 /* Footer */
 
@@ -81,8 +53,8 @@ body, html {
 .footer {
 
 	background-color: #000000;
-	margin-bottom: 50px;
-  margin-top: 50px;
+	margin-bottom: 20vh;
+  margin-top: 20vh;
 	text-align: center;
 	text-decoration: none;
 
@@ -97,7 +69,7 @@ body, html {
   width: 100%;
   height:100%;
   top:0;
-  left:0px;
+  left:0;
   overflow: hidden;
   }
 
@@ -105,11 +77,11 @@ body, html {
     {
     height:100%;
     position:absolute;
-    margin:0px;
-    padding:0px;
+    margin:0;
+    padding:0;
 
-    -webkit-transform: translate3d(0px,0px,0px);
-    transform: translate3d(0px,0px,0px);
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 
     transition: all 0.66s ease; -webkit-transition: all 0.66s ease;
 
@@ -122,15 +94,14 @@ body, html {
     float: left;
     margin: 0;
     padding: 0;
-    width: 500px;
+    width: 500vh;
     height: 100%;
     background: #ccc;
     text-align: center;
-    line-height: 300px;
     background-size: cover;
     background-position:50% 50%;
     color:#fff;
-    -webkit-transform: translate3d(0px,0px,0px);
+    -webkit-transform: translate3d(0,0,0);
     visibility:hidden;
     -webkit-transform-style: preserve-3d;
     }
@@ -161,38 +132,40 @@ body, html {
   position: relative;
   top: -10%;
   word-wrap: break-word;
+  color: black;
 }
 /* Slide 2*/
 .slidetext2 {
-  font-size: 20vh;
+  font-size: 15vh;
   font-family: Anton, sans-serif;
   position: relative;
   top: -10%;
   text-align: left;
   color: black;
   margin-left: 5%;
+  line-height: 25vh;
 }
 .image1 {
   position: absolute;
-  top: 25%;
-  right:8%;
-  max-width: 85%;
-  height: 45%;
+  top: 20vh;
+  right:8vw;
+  width: 35vw;
+  height: 25vw;
   float: right;
 }
 #buton2 {
 	background-color:#9FDDCD;
   position: relative;
-  top: -66vh;
-	-moz-border-radius:30px;
-	-webkit-border-radius:30px;
-	border-radius:30px;
-	border:6px solid #9FDDCD;
+  top: -28vh;
+	-moz-border-radius:5vh;
+	-webkit-border-radius:5vh;
+	border-radius:5vh;
+	border:1vh solid #9FDDCD;
 	cursor:pointer;
 	color:#000000;
 	font-family:'Open Sans Condensed', sans-serif;
-	font-size:18px;
-	padding:8px 16px;
+	font-size:3vh;
+	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
   left: -25%;
@@ -200,4 +173,4 @@ body, html {
 }
 #buton2:hover {
 	background-color:#98D3C3;
-  border:8px solid #98D3C3;
+  border:1vh solid #98D3C3;
