@@ -147,10 +147,30 @@ float: center;
           height: 30vh;
       }
 
-      #buton2 , #buton3, #buton4 , #buton5{
+      #buton2 , #buton3, #buton4 , #buton{
 
         position: relative;
         top: -40vh;
         left: 0vh;
       }
-/* Slide 3*/
+/* what is vitay - section one */
+#bottom {
+  height: 76vw;
+}
+.text1 {
+  margin-left: 1vw;
+  font-size: 6vw;
+  text-align: center;
+}
+.text2 {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  font-size: 4vw;
+  text-align: center;
+}
+.job1 {
+  position: absolute;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  margin-top: 92%;
+}
