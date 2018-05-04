@@ -130,21 +130,46 @@ float: center;
       .slidetext2 {
         text-align: center;
         line-height: 20vh;
-        top: -26vh;
+        top: -16vh;
+        left: -3.5vh;
       }
 
       .image1 {
           position: absolute;
-          top: 63vh;
-          right:33vw;
-          width: 35vw;
-          height: 25vw;
+          top: 72vh;
+          left:50%;
+          transform: translate(-50%, -50%);
+          width: 30vh;
+          height: 30vh;
           float: right;
       }
 
       #buton2 {
 
         position: relative;
-        top: -45vh;
+        top: -40vh;
         left: 0vh;
       }
+/* Slide 3*/
+.slidetext3 {
+  text-align: center;
+  line-height: 20vh;
+  top: -10%;
+  left: -7vh;
+}
+
+.image3 {
+    position: absolute;
+    top: 48vh;
+    right:10.5vh;
+    width: 35vh;
+    height: 35vh;
+    float: right;
+}
+
+#buton3 {
+
+  position: relative;
+  top: -25vh;
+  left: 0vh;
+}
