@@ -176,12 +176,29 @@ body::-webkit-scrollbar { display: none; }
     border:1vh solid #98D3C3;
 
   }
+  #buton5 {
+  	background-color:#9FDDCD;
+    position: relative;
+    top: -23vh;
+  	-moz-border-radius:5vh;
+  	-webkit-border-radius:5vh;
+  	border-radius:5vh;
+  	border:1vh solid #9FDDCD;
+  	cursor:pointer;
+  	color:#000000;
+  	font-family:'Open Sans Condensed', sans-serif;
+  	font-size:3vh;
+  	padding:1vh 2vh;
+  	text-decoration:none;
+    z-index: 999;
+    left: -22%;
+  }
 
-}
-#buton2:hover {
-	background-color:#98D3C3;
-  border:1vh solid #98D3C3;
-}
+    #buton5:hover {
+    	background-color:#98D3C3;
+      border:1vh solid #98D3C3;
+
+    }
 /* Slide 3*/
 .slidetext3 {
   font-size: 15vh;
@@ -216,7 +233,7 @@ body::-webkit-scrollbar { display: none; }
 	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-  right: -22%;
+  right: -17%;
 }
 
   #buton3:hover {
@@ -232,7 +249,7 @@ body::-webkit-scrollbar { display: none; }
   top: -3%;
   text-align: right;
   color: black;
-  margin-right: 15%;
+  margin-right: 10%;
   line-height: 25vh;
 }
 .image4 {
@@ -258,7 +275,7 @@ body::-webkit-scrollbar { display: none; }
 	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-  right: -22%;
+  right: -25%;
 }
 
   #buton4:hover {
