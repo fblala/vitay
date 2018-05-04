@@ -127,49 +127,30 @@ float: center;
       }
 /* Slideshow along with text and buttons on Slideshow Responsive */
 /* SLide 2*/
-      .slidetext2 {
+      .slidetext2 , .slidetext3 , .slidetext4 {
         text-align: center;
         line-height: 20vh;
         top: -16vh;
-        left: -3.5vh;
+        margin-top: 25vh;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 30vh
+
       }
 
-      .image1 {
+      .image1 , .image2 , .image3, .image4{
           position: absolute;
           top: 72vh;
           left:50%;
           transform: translate(-50%, -50%);
           width: 30vh;
           height: 30vh;
-          float: right;
       }
 
-      #buton2 {
+      #buton2 , #buton3, #buton4{
 
         position: relative;
         top: -40vh;
         left: 0vh;
       }
 /* Slide 3*/
-.slidetext3 {
-  text-align: center;
-  line-height: 20vh;
-  top: -10%;
-  left: -7vh;
-}
-
-.image3 {
-    position: absolute;
-    top: 48vh;
-    right:10.5vh;
-    width: 35vh;
-    height: 35vh;
-    float: right;
-}
-
-#buton3 {
-
-  position: relative;
-  top: -25vh;
-  left: 0vh;
-}
