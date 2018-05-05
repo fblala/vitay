@@ -43,7 +43,7 @@ body::-webkit-scrollbar { display: none; }
 
 /* Footer */
 
-.footer li {
+.footer li a {
 	color: white;
   text-decoration: none;
   list-style-type: none;
@@ -59,6 +59,7 @@ body::-webkit-scrollbar { display: none; }
   margin-top: 20vh;
 	text-align: center;
 	text-decoration: none;
+
 
 
 }
@@ -289,9 +290,8 @@ body::-webkit-scrollbar { display: none; }
 
 /* What is Vitay Section One */
 #bottom {
-background-image: url(images/background1.jpg);
-background-size:250vw 90vh;
-background-position: 0 0 100vw;
+  background-image: -webkit-linear-gradient(75deg , #9FDDCD 50%, #fff 50%);
+  min-height: 20vw;
   height: 37vw;
 
 }
@@ -308,6 +308,7 @@ background-position: 0 0 100vw;
   margin-top: 5vw;
  font-family: Lato;
  font-size: 1.7vw;
+ background-color: white;
 }
 
 .job1 {
@@ -315,5 +316,34 @@ background-position: 0 0 100vw;
   width: 25vw;
   height: 25vw;
   margin-left: 12vw;
+  margin-top: 5vw;
+}
+#next {
+  background-image: -webkit-linear-gradient(105deg , #9FDDCD 50%, #fff 50%);
+  min-height: 20vw;
+  height: 37vw;
+
+}
+ .text3{
+   margin-left: 5vw;
+   margin-right: 50vw;
+  font-family: Lato;
+  font-weight: 600;
+  font-size: 4vw;
+}
+.text4{
+  margin-left: 5vw;
+  margin-right: 50vw;
+  margin-top: 5vw;
+ font-family: Lato;
+ font-size: 1.7vw;
+ background-color: white;
+}
+
+.help {
+  position: absolute;
+  width: 25vw;
+  height: 25vw;
+  margin-left: 66vw;
   margin-top: 5vw;
 }
