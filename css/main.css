@@ -359,9 +359,9 @@ body::-webkit-scrollbar { display: none; }
 }
 /* Text on Parallax */
 #textparallax{
-  position: absolute;
+  position: relative;
   z-index: 1000;
-  top: 200vh;
+  top: 50vh;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
