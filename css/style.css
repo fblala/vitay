@@ -157,7 +157,7 @@ float: center;
       }
 /* what is vitay - section one */
 #bottom, #next {
-  height: 96vw;
+  height: 100vw;
 }
 .text1 {
   margin-left: 1vw;
@@ -175,13 +175,13 @@ float: center;
   position: absolute;
   left: 40%;
   transform: translate(-50%, -50%);
-  margin-top: 82%;
+  margin-top: 89%;
 }
 .help{
   position: absolute;
   right:25%;
   transform: translate(-50%, -50%);
-  margin-top: 82%;
+  margin-top: 89%;
 }
 .text3{
   margin-right: 1vw;
