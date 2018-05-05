@@ -308,7 +308,7 @@ body::-webkit-scrollbar { display: none; }
   margin-top: 5vw;
  font-family: Lato;
  font-size: 1.7vw;
- background-color: white;
+ background-color: inherit;
 }
 
 .job1 {
@@ -337,7 +337,7 @@ body::-webkit-scrollbar { display: none; }
   margin-top: 5vw;
  font-family: Lato;
  font-size: 1.7vw;
- background-color: white;
+ background-color: inherit;
 }
 
 .help {
