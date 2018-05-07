@@ -360,13 +360,12 @@ body::-webkit-scrollbar { display: none; }
 #textparallax{
   position: absolute;
   z-index: 1000;
-  top: 100vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
   text-align: center;
   font-family: 'open sans Condensed';
-  font-size: 10vh;
+  font-size: 10v;
   background-color: inherit;
 }
 /* Section 3 */
