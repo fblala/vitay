@@ -103,29 +103,29 @@ top: 58vh;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 335vh;
+  top: 520vw;
 }
 #button2 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 345vh;
+  top: 535vw;
 }
 #button3{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 355vh;
+  top: 550vw;
 }
 #button4 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 365vh;
+  top: 565vw;
 }
 #button5 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 375vh;
+  top: 580vw;
 }
