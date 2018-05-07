@@ -305,7 +305,7 @@ body::-webkit-scrollbar { display: none; }
 .text2{
   margin-left: 50vw;
   margin-right: 5vw;
-  margin-top: 5vw;
+  margin-top: -2vw;
  font-family: Lato;
  font-size: 1.7vw;
  background-color: inherit;
@@ -334,7 +334,7 @@ body::-webkit-scrollbar { display: none; }
 .text4{
   margin-left: 5vw;
   margin-right: 50vw;
-  margin-top: 5vw;
+  margin-top: -2vw;
  font-family: Lato;
  font-size: 1.7vw;
  background-color: inherit;
@@ -358,18 +358,21 @@ body::-webkit-scrollbar { display: none; }
 }
 /* Text on Parallax */
 #textparallax{
-  position: relative;
+  position: absolute;
   z-index: 1000;
-  top: 50vh;
+  top: 100vw;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
   text-align: center;
   font-family: 'open sans Condensed';
   font-size: 10vh;
+  background-color: inherit;
 }
 /* Section 3 */
-
+#next1 {
+  height: 43vh;
+}
 .text5 {
    margin-left: 5vw;
    margin-right: 5vw;
