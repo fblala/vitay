@@ -1,0 +1,57 @@
+.findjob {
+  width: 100%;
+  left: 0px;
+  font-family: Anton, sans-serif;
+  font-size: 8vw;
+  position: absolute;
+  text-align: center;
+}
+.findjobs {
+  min-height: 25vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fj {
+  margin: 10vw;
+}
+.fj1 {
+  font-family: Lato;
+  text-align: left;
+  font-size: 2vw;
+}
+.fj2 {
+  font-size: 4vw;
+  text-align: left;
+  font-family: lato;
+}
+
+.fj3 {
+  font-family: Lato;
+  font-size: 1.75vw;
+  text-align: left;
+}
+
+.fj4 {
+  font-size: 1.3vw;
+  font-family: lato;
+  text-align: left;
+}
+.fjimage {
+  float: right;
+  width: 30vw;
+  height: 25vw;
+  margin-left: 1vw;
+  margin-bottom: 
+}
+.fjimage1 {
+  float: left;
+  width: 30vw;
+  height: 25vw;
+  margin-top: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw
+
+}
