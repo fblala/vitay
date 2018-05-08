@@ -129,3 +129,21 @@ top: 58vh;
   transform: translate(-50%, -50%);
   top: 580vw;
 }
+.findjobs {
+  height: 80vw;
+}
+.findjob {
+  font-size: 15vw;
+}
+.fj1 {
+  font-size: 4vw;
+}
+.fj2 {
+  font-size: 6vw;
+}
+.fj3 {
+  font-size: 5vw;
+}
+.fj4 {
+  font-size: 4vw;
+}
