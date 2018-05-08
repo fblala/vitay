@@ -139,7 +139,7 @@ body::-webkit-scrollbar { display: none; }
 }
 /* Slide 2*/
 .slidetext2 {
-  font-size: 15vh;
+  font-size: 14vh;
   font-family: Anton, sans-serif;
   position: relative;
   top: -3%;

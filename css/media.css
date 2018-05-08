@@ -45,21 +45,24 @@
 
       }
 
-      .image1 , .image2 , .image3, .image4{
+      .image1 , .image3, .image4, .image2{
           position: absolute;
-          top: 72vh;
+          top: 66vh;
           left:50%;
           transform: translate(-50%, -50%);
           width: 30vh;
           height: 30vh;
       }
 
-      #buton2 , #buton3, #buton4 , #buton{
+    #buton3, #buton4 , #buton ,    #buton2{
 
-        position: relative;
-        top: -40vh;
-        left: 5vh;
+        position: absolute;
+        width: 25%;
+        top: 35vh;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
+
 /* what is vitay - section one */
 #bottom, #next {
   height: 100vw;
