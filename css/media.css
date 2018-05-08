@@ -131,6 +131,8 @@ top: 58vh;
 }
 .findjobs {
   height: 80vw;
+  background-attachment: scroll;
+
 }
 .findjob {
   font-size: 15vw;
