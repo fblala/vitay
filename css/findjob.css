@@ -5,6 +5,16 @@
   font-size: 8vw;
   position: absolute;
   text-align: center;
+  animation-name: topFadeOut;
+  animation-duration: 2s;
+}
+
+@keyframes topFadeOut {
+  0% {
+    position: absolute;
+    top: -3rem;
+    opacity: 0;
+  }
 }
 .findjobs {
   min-height: 25vw;
