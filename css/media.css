@@ -185,5 +185,5 @@ top: 58vh;
   font-size: 4vw;
 }
 .parallax {
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
