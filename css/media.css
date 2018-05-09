@@ -184,3 +184,6 @@ top: 58vh;
 .fj4 {
   font-size: 4vw;
 }
+.parallax {
+  background-attachment: fixed;
+}
