@@ -34,7 +34,7 @@
 
 /* Slideshow along with text and buttons on Slideshow Responsive */
 /* SLide 2*/
-      .slidetext2 , .slidetext3 , .slidetext4 {
+      .slidetext2 , .slidetext3 , .slidetext4, .slidetext5 {
         text-align: center;
         line-height: 20vh;
         top: -16vh;
@@ -45,7 +45,7 @@
 
       }
 
-      .image1 , .image3, .image4, .image2{
+      .image1 , .image3, .image4, .image2, .image5{
           position: absolute;
           top: 66vh;
           left:50%;
@@ -54,15 +54,47 @@
           height: 30vh;
       }
 
-    #buton3, #buton4 , #buton ,    #buton2{
+    #buton3, #buton4 , #buton , #buton5, #buton2{
 
         position: absolute;
         width: 25%;
-        top: 35vh;
+        top: 47vh;
         left: 50%;
         transform: translate(-50%, -50%);
       }
+.jobopen {
+  font-size: 3vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  top: 25%;
+}
+.apply{
+  font-size: 3vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  top: 28%;
+}
+.image3 {
+  width: 40vh;
+  height: 30vh;
+}
+.interview {
+  font-size: 3vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  top: 25%;
+}
+.image4 {
+  width: 50vh;
+  height: 40vh;
 
+}
+.whatresume {
+  font-size: 3vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  top: 25%;
+}
 /* what is vitay - section one */
 #bottom, #next {
   height: 100vw;
