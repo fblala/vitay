@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Where to Find Jobs</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image.png" href="/images/Vitay.png">
+<script src="js/scroll.js"></script>
+<script src="js/menu.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href ="css/findjob.css">
+<link rel ="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- nav bar -->
+      <nav>
+        <a href="index.html"><img class="logo"src="images/vitaylogogo.png" alt="logo"></a>
+
+            <div>
+                  <i class="fa fa-bars"></i>
+            </div>
+
+            <ul>
+                  <li><a href="#">APPLYING</i></a>
+                        <ul>
+                              <li><a href="https://www.youtube.com">Job Openings</a></li>
+                              <li><a href="#">Application Forms</a></li>
+                              <li><a href="#">Application Process</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">INTERVIEW</i></a>
+                        <ul>
+                              <li><a href="#">Before an Interview</a></li>
+                              <li><a href="#">During the Interview</a></li>
+                              <li><a href="#">After the Interview</a></li>
+                              <li><a href="#">Sample Interview Questions</a></li>
+                        </ul>
+                  </li>
+                  <li><a href="#">RESUME</i></a>
+                        <ul>
+                              <li><a href="#">Writing a Resume</a></li>
+                              <li><a href="#">Resume Templates</a></li>
+                              <li><a href="#">Resume Examples</a></li>
+                              <li><a href="#">CV</a></li>
+
+                        </ul>
+                  </li>
+                  <li><a href="#">COVER LETTER</i></a>
+                        <ul>
+                              <li><a href="#">Writing a Cover Letter</a></li>
+                              <li><a href="#">Cover Letter Templates</a></li>
+                        </ul>
+                  </li>
+            </ul>
+      </nav>
+<!-- Javascript for the responsive menu-->
+    <script>
+
+      $("nav div").click(function() {
+                  $("ul").slideToggle();
+                  $("ul ul").css("display", "none");
+            });
+
+            $("ul li").click(function() {
+                  $("ul ul").slideUp();
+                  $(this).find('ul').stop().slideToggle();
+            });
+
+            $(window).resize(function() {
+                  if($(window).width() > 768) {
+                        $("ul").removeAttr('style');
+                  }
+            });
+      </script>
+    <div class="findjobs" style="background-image:url(images/office.jpg);">
+      <h1 class="findjob">During the Interview</h1>
+    </div>
+    <div class="fj">
+<p class="fj1">You’ve done the necessary prep work. Now let’s wow the recruiter.</p>
+<p class="fj1"><u>What to do during the interview</u></p>
+<h1 class="fj2"> 1. Dress for success</h1>
+<p class="fj4"> <img src="images/browse.jpg" class="fjimage"alt="pic">As a general rule, it’s best to dress in formalwear, or at the very least, business casual. Men, if you do not own a suit, wear a nice dress shirt and slacks. Women have a little more flexibility, but you can’t go wrong with a nice blouse, blazer and a long skirt (trousers are also acceptable). Accessories are fine too, in moderation. Neutral colors such as black, gray, brown and blue are suitable for both men and women.</p>
+<h1 class="fj2"> 2. Eat something</h1>
+<p class="fj5"> Too many candidates make the mistake of not eating before interviewing and suffer from a lack of attentiveness as a result. Before you go into the interview, eat a meal that contains vitamin E, omega 3 and antioxidants. This will improve brain functionality and help you stay alert. </p>
+<h1 class="fj2"> 3. Arrive early</h1>
+<p class="fj4"> <img src="images/prof.jpg" class="fjimage"alt="pic">Make sure to arrive at least 15-25 minutes before the interview begins. Arriving early sets the tone that you are a professional and will be reliable if offered the position. Don’t use your phone or other mobile devices to pass time when waiting. Instead, you should spend this time practicing your prepared questions and responses in your head.</p>
+<h1 class="fj2"> 4. Answering the questions</h1>
+<img src="images/connect.jpg" class="fjimage1">
+<p class="fj5">Speak clearly and with confidence when interviewing. Play up your strengths and translatable skills to show how you could be a potential asset to the target company. Keep your answers short, simple and honest. Don’t try to be over smart— instead present yourself as a confident and sensible professional. Never use slang words, clichés (ig. “I’m a people person”) or criticize a former employer when interviewing.</p>
+<h1 class="fj2">5. Be Respectful of the Interviewers </h1>
+<img src="images/app.jpg" class="fjimage">
+<p class="fj4">Give the utmost respect for interviewers that are conducting the interview and asking you the questions. The people are always writing notes about your answers and your behavior. This is their first impression of you besides what's on your resume, you want to make sure leave a lasting positive impression to the company! </p>
+<h1 class="fj2"> 6. Speak with Energy and Provide True Details</h1>
+<img src="images/list.jpg" class="fjimage1"alt="pic">
+<p class="fj5"> Make sure to always have a lot of positive energy and only provide true details about your previous employment or achievements. DO NOT LIE about anything in your interview. A company won't want to hire someone on false information. </p><br><br>
+<p class="fj1"><u>What not to do during an interview</u></p>
+<h1 class="fj3"> Don't talk too quickly</h1>
+<h1 class="fj3"> Don’t digress from your points. Answer questions directly.</h1>
+<h1 class="fj3"> Don’t use slang.</h1>
+<h1 class="fj3"> Don’t use words you don’t know the meaning of.</h1>
+<h1 class="fj3"> Don’t be arrogant.</h1>
+<h1 class="fj3"> Don’t talk about your personal life.</h1>
+<h1 class="fj3"> Don’t give the employer any reason to think you will not perform well.</h1>
+<h1 class="fj3"> Don’t act nervous. You probably will be, but it is best if you take a few seconds and clear your mind; your answers will be less jumbled. If you find yourself getting really nervous, excuse yourself and go to the bathroom to get some air. Don’t take too long but it is better to collect your thoughts than to plow ahead when you can’t focus.</h1>
+<h1 class="fj3"> Don’t fidget. This might be something you have to practice but it is worth it.</h1>
+<h1 class="fj3"> Don’t get defensive. The interviewer will be asking technical questions. Everyone has their weak spots and that is okay – work with it and practice for it.</h1>
+<h1 class="fj3"> Don’t bring coffee. Sipping a drink is a sign of disrespect during an interview.</h1>
+
+
+
+
+
+
+</div>
+<footer class="footer">
+  <li><a href="#">About Us</a></li>
+  <li><a href="#">FAQ</a></li>
+  <li><a href="#">Contact Us</a></li>
+</footer>

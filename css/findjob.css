@@ -25,8 +25,8 @@
 }
 
 .fj {
-  margin-left: 10vw;
-  margin-right: 10vw;
+  margin-left: 20vw;
+  margin-right: 20vw;
 }
 .fj1 {
   font-family: Lato;
@@ -34,33 +34,39 @@
   font-size: 2vw;
 }
 .fj2 {
-  font-size: 4vw;
+  font-size: 2vw;
   text-align: left;
   font-family: lato;
+  text-decoration:underline;
+  text-decoration-color: #ff8f66;
 }
 
 .fj3 {
   font-family: Lato;
   font-size: 1.75vw;
   text-align: left;
+  font-weight: lighter;
 }
 
-.fj4 {
+.fj4 , .fj5 {
   font-size: 1.3vw;
   font-family: lato;
   text-align: left;
 }
+
 .fjimage {
   float: right;
-  width: 30vw;
-  height: 25vw;
+  width: 40vh;
+  height: 25vh;
   margin-left: 1vw;
-  margin-bottom:
+  border: black;
+  border-radius: 2vw;
 }
 .fjimage1 {
   float: left;
-  width: 30vw;
-  height: 25vw;
-  margin-top: 1vw;
+  width: 40vh;
+  height: 25vh;
+  border: black;
+  border-radius: 2vw;
   margin-right: 1vw;
-  margin-bottom: 1vw
+}

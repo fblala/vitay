@@ -147,7 +147,7 @@ body::-webkit-scrollbar { display: none; }
   top: -8%;
   text-align: left;
   color: black;
-  margin-left: 25%;
+  margin-left: 10%;
   line-height: 25vh;
 }
 .jobopen {
@@ -158,6 +158,8 @@ body::-webkit-scrollbar { display: none; }
   font-size: 2vw;
   font-family: lato;
   color: black;
+  font-weight: lighter;
+  text-align: left;
 }
 .image1 {
   position: absolute;
@@ -170,7 +172,7 @@ body::-webkit-scrollbar { display: none; }
 #buton2 {
 	background-color:#9FDDCD;
   position: relative;
-  top: 8vh;
+  top: -13vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
@@ -182,7 +184,7 @@ body::-webkit-scrollbar { display: none; }
 	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-  left: -18%;
+  left: -35%;
 }
 
   #buton2:hover {
@@ -222,17 +224,19 @@ body::-webkit-scrollbar { display: none; }
   top: -8%;
   text-align: right;
   color: black;
-  margin-right: 17%;
+  margin-right: 10%;
   line-height: 25vh;
 }
 .apply {
-  margin-right: 8vw;
+  margin-right: 10%;
   margin-left: 47vw;
   top: 35%;
   position: absolute;
   font-size: 2vw;
   font-family: lato;
   color: black;
+  text-align: right;
+  font-weight: lighter;
 }
 .image3 {
   position: absolute;
@@ -245,7 +249,7 @@ body::-webkit-scrollbar { display: none; }
 #buton3 {
 	background-color:#9FDDCD;
   position: relative;
-  top: 1vh;
+  top: -12vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
@@ -257,7 +261,7 @@ body::-webkit-scrollbar { display: none; }
 	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-  right: -20%;
+  right: -35%;
 }
 
   #buton3:hover {
@@ -273,7 +277,7 @@ body::-webkit-scrollbar { display: none; }
   top: -8%;
   text-align: left;
   color: black;
-  margin-left: 19%;
+  margin-left: 10%;
   line-height: 25vh;
 }
 .interview {
@@ -284,7 +288,8 @@ body::-webkit-scrollbar { display: none; }
   font-size: 2vw;
   font-family: lato;
   color: black;
-  text-align: center;
+  text-align: left;
+  font-weight: lighter;
 }
 
 .image4 {
@@ -299,7 +304,7 @@ body::-webkit-scrollbar { display: none; }
   #buton4 {
   	background-color:#9FDDCD;
     position: relative;
-    top: 2vh;
+    top: -12vh;
   	-moz-border-radius:5vh;
   	-webkit-border-radius:5vh;
   	border-radius:5vh;
@@ -311,7 +316,7 @@ body::-webkit-scrollbar { display: none; }
   	padding:1vh 2vh;
   	text-decoration:none;
     z-index: 999;
-    left: -18%;
+    left: -35%;
   }
 
     #buton4:hover {
@@ -328,17 +333,19 @@ body::-webkit-scrollbar { display: none; }
   top: -8%;
   text-align: right;
   color: black;
-  margin-right: 17%;
+  margin-right: 10%;
   line-height: 25vh;
 }
 .whatresume{
-  margin-right: 8vw;
-  margin-left: 47vw;
+  margin-right: 10vw;
+  margin-left: 48vw;
   top: 35%;
   position: absolute;
   font-size: 2vw;
   font-family: lato;
   color: black;
+  text-align: right;
+  font-weight: lighter;
 }
 .image5 {
   position: absolute;
@@ -351,7 +358,7 @@ body::-webkit-scrollbar { display: none; }
 #buton5 {
 	background-color:#9FDDCD;
   position: relative;
-  top: 0vh;
+  top: -13vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
@@ -363,7 +370,7 @@ body::-webkit-scrollbar { display: none; }
 	padding:1vh 2vh;
 	text-decoration:none;
   z-index: 999;
-  right: -20%;
+  right: -35%;
 }
 
   #buton5:hover {
@@ -380,13 +387,34 @@ body::-webkit-scrollbar { display: none; }
   height: 37vw;
 
 }
- .text1{
+ .text1 {
    margin-left: 50vw;
    margin-right: 5vw;
   font-family: Lato;
   font-weight: 600;
   font-size: 4vw;
+  position: relative;
+  color: black;
+  z-index: 99;
 }
+.text1:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  width:53%;
+  height: 35%;
+  background-color: #ff8f66;
+  z-index: -1;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
+        }
+
+
+
+
+
 .text2{
   margin-left: 50vw;
   margin-right: 5vw;
@@ -415,6 +443,22 @@ body::-webkit-scrollbar { display: none; }
   font-family: Lato;
   font-weight: 600;
   font-size: 4vw;
+  position: relative;
+  color: black;
+  z-index: 99;
+}
+.text3:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: .8%;
+  width:68%;
+  height: 35%;
+  background-color: #ff8f66;
+  z-index: -1;
+  -webkit-transition: all .1s linear;
+  -moz-transition: all .1s linear;
+  transition: all .1s linear;
 }
 .text4{
   margin-left: 5vw;
