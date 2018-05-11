@@ -452,7 +452,7 @@ body::-webkit-scrollbar { display: none; }
   position: absolute;
   bottom: 0;
   left: .8%;
-  width:68%;
+  width:29%;
   height: 35%;
   background-color: #ff8f66;
   z-index: -1;

@@ -159,8 +159,8 @@ width: 38%;
   text-align: center;
 }
 .text3:after {
-  left: 25%;
-  width: 50%;
+  left: 37%;
+  width: 25%;
 }
 #textparallax{
 font-size: 8vh;
@@ -172,31 +172,31 @@ top: 58vh;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 515vw;
+  top: 520vw;
 }
 #button2 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 530vw;
+  top: 535vw;
 }
 #button3{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 545vw;
+  top: 550vw;
 }
 #button4 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 560vw;
+  top: 565vw;
 }
 #button5 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 575vw;
+  top: 580vw;
 }
 .findjobs {
   height: 80vw;
@@ -225,3 +225,21 @@ top: 58vh;
   float: none;
   margin: 0;
 }
+.resumetemp {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  margin-top: 25vw;
+  width: 50vh;
+  height: 30vh;
+}
+.btn-5 {
+position: relative;
+transform: translate(-50%, -50%);
+left: 50%;
+top: -15vh;
+margin-top: 10vw;
+
+}
+iframe {
+  width:70vw;
+  height:50vw;
