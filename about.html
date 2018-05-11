@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Before an Interview</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image.png" href="/images/Vitay.png">
+<script src="js/scroll.js"></script>
+<script src="js/menu.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href ="css/findjob.css">
+<link rel ="stylesheet" href="css/media.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- nav bar -->
+<nav>
+  <a href="index.html"><img class="logo"src="images/vitaylogogo.png" alt="logo"></a>
+
+      <div>
+            <i class="fa fa-bars"></i>
+      </div>
+
+      <ul>
+            <li><a href="#">APPLYING</i></a>
+                  <ul>
+                        <li><a href="Findingjobs.html">How to find jobs</a></li>
+                        <li><a href="wherejobs.html"> Where to find jobs</a></li>
+                        <li><a href="applicationform.html">Application Forms</a></li>
+                        <li><a href="Applicationprocess.html">Application Process</a></li>
+                  </ul>
+            </li>
+            <li><a href="#">INTERVIEW</i></a>
+                  <ul>
+                        <li><a href="beforeinterview.html">Before an Interview</a></li>
+                        <li><a href="duringinterview.html">During the Interview</a></li>
+                        <li><a href="afterinterview.html">After the Interview</a></li>
+                        <li><a href="sampleinterview.html">Sample Interview Questions</a></li>
+                  </ul>
+            </li>
+            <li><a href="#">RESUME</i></a>
+                  <ul>
+                        <li><a href="resumewriting.html">Writing a Resume</a></li>
+                        <li><a href="Resumetemplate.html">Resume Templates</a></li>
+                        <li><a href="resume-example.html">Resume Examples</a></li>
+                  </ul>
+            </li>
+            <li><a href="#">COVER LETTER</i></a>
+                  <ul>
+                        <li><a href="writecoverletter.html">Writing a Cover Letter</a></li>
+                        <li><a href="coverlettertemplate.html">Cover Letter Templates</a></li>
+                        <li><a href="coverletterexample.html">Cover Letter Examples</a></li>
+                  </ul>
+            </li>
+            <li><a href="#">MORE</i></a>
+                  <ul>
+                        <li><a href="copyright.html">Copyright</a></li>
+                        <li><a href="follow.html">Follow Us</a></li>
+
+                  </ul>
+            </li>
+      </ul>
+</nav>
+<!-- Javascript for the responsive menu-->
+    <script>
+
+      $("nav div").click(function() {
+                  $("ul").slideToggle();
+                  $("ul ul").css("display", "none");
+            });
+
+            $("ul li").click(function() {
+                  $("ul ul").slideUp();
+                  $(this).find('ul').stop().slideToggle();
+            });
+
+            $(window).resize(function() {
+                  if($(window).width() > 768) {
+                        $("ul").removeAttr('style');
+                  }
+            });
+      </script>
+
+<div id="bottom">
+  <img src="images/officialbackground.png" class="job1">
+  <h1 class="text1"> What is Vitay </h1>
+  <p class="text2"> Vitay is a  website that is consistently helping the world become employed. We are passionate in ensuring that your career and employment goals are always met. With access to the most modern resources and templates, our website is sure to be a great fit for you! We offer the most up to date information to help people <u>find jobs, ace their interviews, skillfully complete all their application forms, resume's and cover letters</u> and also offer templates and videos to further help our users.</p>
+</div>
+<!-- Parallax scrolling -->
+<div class="parallax" style="background-image:url(images/office.jpg);"></div>
+
+<!-- Section 2 -->
+<div id="next">
+  <img src="images/help.png" class="help">
+  <h1 class="text3"> Why us</h1>
+  <p class="text4">Vitay should always be your number one job obtaining website as we are dedicated to making sure you will become employed. With our team of determined individuals, and access to the most modern resources, Vitay is a website that you shouldn’t be without you throughout your employment finding journey!
+</p>
+</div>
+<footer class="footer">
+  <li><a href="copyright.html">Copyright</a></li>
+  <li><a href="about.html">Sources</a></li>
+  <li><a href="follow.html">Follow Us</a></li>
+  <li><a href="#">No Template Used</a></li>
+</footer>
+</body>
+</html>
