@@ -116,7 +116,7 @@ body::-webkit-scrollbar { display: none; }
 .nav
   {
   position:absolute;
-  z-index:9;
+  z-index:15;
   top:50%;
   cursor:pointer;
   color:#fff;
@@ -395,21 +395,8 @@ body::-webkit-scrollbar { display: none; }
   font-size: 4vw;
   position: relative;
   color: black;
-  z-index: 99;
+  z-index: 9;
 }
-.text1:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 1%;
-  width:53%;
-  height: 35%;
-  background-color: #ff8f66;
-  z-index: -1;
-  -webkit-transition: all .1s linear;
-  -moz-transition: all .1s linear;
-  transition: all .1s linear;
-        }
 
 
 
