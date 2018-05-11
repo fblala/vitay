@@ -1,3 +1,4 @@
+/* Main Title*/
 .findjob {
   width: 100%;
   left: 0px;
@@ -8,7 +9,7 @@
   animation-name: topFadeOut;
   animation-duration: 2s;
 }
-
+/* Title Animation*/
 @keyframes topFadeOut {
   0% {
     position: absolute;
@@ -16,6 +17,7 @@
     opacity: 0;
   }
 }
+/* Large Text*/
 .findjobs {
   min-height: 25vw;
   background-attachment: fixed;
@@ -23,7 +25,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* regular text*/
 .fj {
   margin-left: 22vw;
   margin-right: 22vw;
@@ -53,7 +55,7 @@
   font-family: lato;
   text-align: left;
 }
-
+/* Images on the pages*/
 .fjimage {
   float: right;
   width: 40vh;
@@ -70,9 +72,11 @@
   border-radius: 2vw;
   margin-right: 1vw;
 }
+/* Text*/
 .quest {
   font-family: lato;
 }
+/* Resume template images*/
 .resumetemp {
   position: relative;
   width: 100vh;
@@ -87,6 +91,7 @@
   border: black;
   border-width: 3vw;
 }
+/* Cool Hover Download Buttons */
 .btn-5,
 .btn-5::after {
   -webkit-transition: all 0.3s;

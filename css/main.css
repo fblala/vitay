@@ -543,7 +543,6 @@ body::-webkit-scrollbar { display: none; }
   border:1vh solid #98D3C3;
 
 }
-
 #button3 {
   left: 42.5vw;
   top: 2vh;
@@ -612,9 +611,7 @@ body::-webkit-scrollbar { display: none; }
 
 }
 
-
-
-
+/* Text animation*/
 @keyframes topFadeOut {
   0% {
     position: absolute;

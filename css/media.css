@@ -33,7 +33,7 @@
       }
 
 /* Slideshow along with text and buttons on Slideshow Responsive */
-/* SLide 2*/
+/* Slideshow*/
   .slidetext2 {
         text-align: center !important;
         line-height: 20vh;
@@ -87,6 +87,7 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+/* Slideshow Texts*/
 .jobopen {
   font-size: 4vw;
   margin-left: 8vw;
@@ -198,6 +199,7 @@ top: 58vh;
   transform: translate(-50%, -50%);
   top: 575vw;
 }
+/* Information pages */
 .findjobs {
   height: 80vw;
   background-attachment: scroll;
@@ -240,6 +242,7 @@ top: -15vh;
 margin-top: 10vw;
 
 }
+/*Youtube Videos*/
 iframe {
   width:70vw;
   height:50vw;
