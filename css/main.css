@@ -330,6 +330,7 @@ body::-webkit-scrollbar { display: none; }
   color: black;
   margin-right: 10%;
   line-height: 25vh;
+  top: 8%;
 }
 .whatresume{
   margin-right: 10vw;
