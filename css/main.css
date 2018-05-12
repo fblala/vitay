@@ -550,7 +550,7 @@ body::-webkit-scrollbar { display: none; }
   position: relative;
   left: 60.5vw;
   transform: translate(-50%, -50%);
-  top: 2vh;
+  top: -2vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
