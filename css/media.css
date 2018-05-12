@@ -93,8 +93,10 @@
   margin-left: 8vw;
   margin-right: 8vw;
   top: 25%;
+  text-align:center !important;
 }
 .apply{
+  text-align:center !important;
   font-size: 4vw;
   margin-left: 8vw;
   margin-right: 8vw;
@@ -105,6 +107,7 @@
   height: 30vh;
 }
 .interview {
+  text-align:center !important;
   font-size: 4vw;
   margin-left: 8vw;
   margin-right: 8vw;
@@ -116,6 +119,7 @@
 
 }
 .whatresume {
+  text-align:center !important;
   font-size: 4vw;
   margin-left: 8vw;
   margin-right: 8vw;
