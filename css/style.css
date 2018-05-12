@@ -15,7 +15,7 @@ body {
 /* Logo Positioning*/
 .logo {
   position: absolute;
-  z-index:3;
+  z-index:9933;
   text-align: left;
   float: left;
   height: 6vh;
