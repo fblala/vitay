@@ -8,12 +8,13 @@
   text-align: center;
   animation-name: topFadeOut;
   animation-duration: 2s;
+  margin-top: 3vw;
 }
 /* Title Animation*/
 @keyframes topFadeOut {
   0% {
     position: absolute;
-    top: -3rvw;
+    top: -3vw;
     opacity: 0;
   }
 }
