@@ -14,7 +14,7 @@
 @keyframes topFadeOut {
   0% {
     position: absolute;
-    top: -3vew;
+    top: -5vw;
     opacity: 0;
   }
 }
