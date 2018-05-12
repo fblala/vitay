@@ -245,7 +245,7 @@ body::-webkit-scrollbar { display: none; }
 #buton3 {
 	background-color:#9FDDCD;
   position: relative;
-  top: 25vh;
+  top: 30vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
@@ -300,7 +300,7 @@ body::-webkit-scrollbar { display: none; }
   #buton4 {
   	background-color:#9FDDCD;
     position: relative;
-    top: 25vh;
+    top: 30vh;
   	-moz-border-radius:5vh;
   	-webkit-border-radius:5vh;
   	border-radius:5vh;
@@ -354,7 +354,7 @@ body::-webkit-scrollbar { display: none; }
 #buton5 {
 	background-color:#9FDDCD;
   position: relative;
-  top: 25vh;
+  top: 30vh;
 	-moz-border-radius:5vh;
 	-webkit-border-radius:5vh;
 	border-radius:5vh;
@@ -393,10 +393,6 @@ body::-webkit-scrollbar { display: none; }
   color: black;
   z-index: 9;
 }
-
-
-
-
 
 .text2{
   margin-left: 50vw;
