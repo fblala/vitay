@@ -3,15 +3,16 @@
 /* Nav bar responsive */
       nav div {
             display: block;
-            color: #FFFFFF;
+            color: #9FDDCD;
             text-align: right;
+            background: white;
       }
 
       ul {
             z-index: 2;
             display: none;
             position: static;
-            background: #000;
+            background: #fff;
 
       }
       ul li:hover { background: #9FDDCD;}
@@ -22,7 +23,8 @@
 
       ul ul {
             position: static;
-            background: #e3e3e3;
+            background: #A0C4E2;
+            width: 100%
       }
 /* Logo Responsive */
       .logo {
@@ -30,6 +32,7 @@
         height: 6vh;
         margin: 1vh;
         text-align: left;
+        position: absolute;
       }
 
 /* Slideshow along with text and buttons on Slideshow Responsive */
