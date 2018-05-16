@@ -8,7 +8,7 @@
   text-align: center;
   animation-name: topFadeOut;
   animation-duration: 2s;
-  margin-top: 3vw;
+  margin-top: 5vw;
 }
 /* Title Animation*/
 @keyframes topFadeOut {

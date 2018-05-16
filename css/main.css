@@ -55,9 +55,6 @@ body::-webkit-scrollbar { display: none; }
   margin-top: 20vh;
 	text-align: center;
 	text-decoration: none;
-
-
-
 }
 
 
@@ -590,6 +587,8 @@ body::-webkit-scrollbar { display: none; }
   border:1vh solid #98D3C3;
 
 }
+
+
 
 /* Text animation*/
 @keyframes topFadeOut {
