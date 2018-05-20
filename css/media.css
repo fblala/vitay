@@ -180,31 +180,31 @@ top: 58vh;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 515vw;
+  top: 289%;
 }
 #button2 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 530vw;
+  top: 299%;
 }
 #button3{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 545vw;
+  top: 309%;
 }
 #button4 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 560vw;
+  top: 319%;
 }
 #button5 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 575vw;
+  top: 329%;
 }
 /* Information pages */
 .findjobs {
@@ -246,8 +246,10 @@ top: 58vh;
 position: relative;
 transform: translate(-50%, -50%);
 left: 50%;
-top: -15vh;
+top: 9vh;
 margin-top: 10vw;
+padding: 2vw;
+font-size:
 
 }
 /*Youtube Videos*/
