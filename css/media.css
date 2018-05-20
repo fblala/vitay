@@ -244,13 +244,15 @@ top: 58vh;
 }
 .btn-5 {
 position: relative;
-transform: translate(-50%, -50%);
-left: 50%;
-top: 9vh;
-margin-top: 10vw;
+top: 0vh;
+margin-top: 5vw;
 padding: 2vw;
-font-size:
-
+font-size:5vw;
+}
+.resumex {
+  position: relative;
+  width: 40vh;
+  height: 70vh;
 }
 /*Youtube Videos*/
 iframe {
