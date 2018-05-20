@@ -180,31 +180,31 @@ top: 58vh;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 289%;
+  top: 289vh;
 }
 #button2 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 299%;
+  top: 299vh;
 }
 #button3{
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 309%;
+  top: 309vh;
 }
 #button4 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 319%;
+  top: 319vh;
 }
 #button5 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 329%;
+  top: 329vh;
 }
 /* Information pages */
 .findjobs {
